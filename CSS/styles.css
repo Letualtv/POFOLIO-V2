@@ -1,0 +1,68 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#presentacion {
+  background-color: #001524;
+  height: 100vh;
+  color: blanchedalmond;
+}
+.mellamo{
+  font-size: 1rem;
+    position: absolute;
+
+}
+
+  /* Cambio de color y tamaño:hover iconos de pagina principal */
+
+.glow-icon1:hover {
+  color: #0e76a8;
+  text-shadow: 0 0 3px #0e76a8;
+  transform: scale(1.1);
+}
+
+.glow-icon2:hover {
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
+  transform: scale(1.1);
+
+}
+.glow-icon3:hover {
+  color: #d62976;
+  text-shadow: 0 0 3px #d62976;
+  transform: scale(1.1);
+
+}
+
+  /* Animación escritura programador pagina principal */
+
+#escritura-automatica {
+  font-size: 1.2rem;
+  display: block;
+  width: 33ch;
+  overflow: hidden;
+  border-right: 0.15em solid yellow;
+  white-space: nowrap;
+  animation: typing 2s steps(25), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+  /* seccion 2 sobremi */
+  #sobremi {
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1062%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(0%2c 21%2c 36%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c177 C 76.8%2c196.2 230.4%2c288.4 384%2c273 C 537.6%2c257.6 614.4%2c87 768%2c100 C 921.6%2c113 998.4%2c340.6 1152%2c338 C 1305.6%2c335.4 1382.4%2c116.6 1536%2c87 C 1689.6%2c57.4 1843.2%2c169.4 1920%2c190L1920 1080L0 1080z' fill='rgba(95%2c 44%2c 41%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c542 C 42.8%2c533.4 128.4%2c493 214%2c499 C 299.6%2c505 342.4%2c571.8 428%2c572 C 513.6%2c572.2 556.4%2c496 642%2c500 C 727.6%2c504 770.4%2c585.8 856%2c592 C 941.6%2c598.2 984.4%2c519.2 1070%2c531 C 1155.6%2c542.8 1198.4%2c666.4 1284%2c651 C 1369.6%2c635.6 1412.4%2c450.4 1498%2c454 C 1583.6%2c457.6 1627.6%2c652.8 1712%2c669 C 1796.4%2c685.2 1878.4%2c561.8 1920%2c535L1920 1080L0 1080z' fill='rgba(174%2c 63%2c 45%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c877 C 55%2c899 165%2c989.8 275%2c987 C 385%2c984.2 440%2c868.6 550%2c863 C 660%2c857.4 715%2c976.8 825%2c959 C 935%2c941.2 990%2c781.6 1100%2c774 C 1210%2c766.4 1265%2c910.4 1375%2c921 C 1485%2c931.6 1541%2c822.6 1650%2c827 C 1759%2c831.4 1866%2c919.8 1920%2c943L1920 1080L0 1080z' fill='rgba(174%2c 63%2c 45%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1062'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  }
