@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,9 +7,10 @@
   <title>li2 porfolio</title>
   <!-- Enlaces a los archivos CSS de Bootstrap, Sass y JavaScript-->
   <link rel="stylesheet" href="/CSS/styles.css" />
+  <link rel="stylesheet" href="/CSS/styles2.css" />
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -17,42 +18,38 @@
   <section id="presentacion" class="row">
     <div class="col-md-8 align-self-center pl-5">
       <h2 class="font-weight-bold">¡Bienvenid@!&#128075;</h2>
-      <div >
-        <p class="mellamo font-italic pl-2 ml  font-weight-normal">
+      <div>
+        <p class="mellamo font-italic pl-2 m-1  font-weight-normal">
           me llamo
         </p>
-      <h1 class=" display-1 font-weight-bolder ml-5">
-       
-
-        Antonio Pu<span class=" display-1 font-weight-bolder text-warning">lido</span>
-        <h3 id="escritura-automatica" class="ml-5 text-right badge badge-dark font-italic font-weight-bold">Y SOY
-          DESARROLLADOR WEB JUNIOR</h3></h1></div>
-
-        
+        <h1 class=" display-1 font-weight-bolder ml-5 m-1">
 
 
-
-
+          Antonio Pu<span class=" display-1 font-weight-bolder text-warning">lido</span>
+          <h3 id="escritura-automatica" class="ml-5 text-right badge badge-dark font-italic font-weight-bold">Y SOY
+            DESARROLLADOR WEB JUNIOR</h3>
+        </h1>
+      </div>
       <div class="container">
         <div class="row flex-nowrap">
           <div class="col-md-2">
-            <a href="#" class=" text-center ">
+            <a target="_blank" href="#" class=" text-center ">
               <div class="card-body glow-icon1">
-                <i id="iconos_principales" class="fab fa-linkedin fa-3x" style="color: #0e76a8;"></i>
+                <i id="iconos_principales" class="fab fa-linkedin fa-3x"></i>
               </div>
             </a>
           </div>
           <div class="col-md-2">
-            <a href="#" class=" text-center">
+            <a target="_blank" href="#" class=" text-center">
               <div class="card-body glow-icon2">
-                <i id="iconos_principales" class="fab fa-github fa-3x" style="color: white;"></i>
+                <i id="iconos_principales" class="fab fa-github fa-3x"></i>
               </div>
             </a>
           </div>
           <div class="col-md-2">
-            <a href="#" class=" text-center">
+            <a target="_blank" href="#" class=" text-center">
               <div class="card-body glow-icon3">
-                <i id="iconos_principales" class="fab fa-instagram fa-3x" style="color:#d62976"></i>
+                <i id="iconos_principales" class="fab fa-instagram fa-3x"></i>
               </div>
             </a>
           </div>
@@ -65,26 +62,182 @@
   </section>
 
   <section id="sobremi" class="row">
-    <div class="container">
+    <div class="container ">
       <div class="row">
 
-          <div class="col-md-6">
-              <img src="perro.png" alt="Imagen" class="img-fluid">
-          </div>
+        <div class="col-md-5 ">
+          <img src="/IMG/perroespacial.png" alt="Imagen" class="floating-image img-fluid mx-auto">
+        </div>
 
-          <div class="col-md-6">
-              <p>
-                  Aquí puedes agregar tu texto. Puedes escribir lo que desees y personalizar el formato según tus necesidades.
-              </p>
-          </div>
+        <div class="col-md-6 container width ">
+          <h1 class="text-decoration-underline text-center  font-weight-bold">
+            SOBRE MÍ </h1><br>
+          <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5><br>
+          <h5 class="font-weight-bold">Por eso, tras recorrer España de Norte a Sur y trabajar en distintos sectores por
+            fin he podido centrarme en lo que desde niño es mi pasión.</h5>
+          <br>
+          <h5 class="font-weight-bold">Actualmente estoy terminando el ciclo superior de DAW (MEDAC) y realizando
+            muchísimos cursos y bootcamps para mejorar mis skills.</h5>
+        </div>
       </div>
-  </div>
+    </div>
 
+    <div id="stack" class="container">
+      <h1 class="text-center  font-weight-bold"> STACK </h1>
+      <div class="row mt-5 ">
+        <i id="html5_ico" class="fab fa-html5 fa-5x fa-fw mb-5 col"></i>
+        <i id="css3_ico" class="fab fa-css3 fa-5x fa-fw mb-5 col"></i>
+        <i id="js_ico" class="fab fa-brands fa-js fa-5x fa-fw col"></i>
+        <i id="bootstrap_ico" class="fab fa-brands fa-bootstrap fa-5x fa-fw col"></i>
+        <i id="angular_ico" class="fab fa-brands fa-angular fa-5x fa-fw col"></i>
+        <i id="react_ico" class="fab fa-brands fa-react fa-5x fa-fw col"></i>
+        <i id="git_ico" class="fab fa-brands fa-git-alt fa-5x fa-fw col"></i>
+
+
+      </div>
+    </div>
 
 
   </section>
 
+
+
+  <section id="proyectos" class="container-fluid">
+
+    <div class=" m-3 mx-5">
+      <h1 class="text-center font-weight-bold"> PROYECTOS </h1>
+
+      <div class="row justify-content-md-center ">
+        <!-- Tarjeta 1 -->
+        <div class="col col-md-4 mb-4">
+          <a class="text-decoration-none text-white" target="_blank" href="#">
+            <div id="tarjeta" class="tarjeta card">
+              <h4 class="card-header font-weight-bold d-flex justify-content-between ">Linktree <i
+                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                  style="color: #ffffff;"></i></h4>
+              <div class="card-body">
+                <p id="parrafo_tarjeta" class="card-text">Página sencilla con diversos enlaces a redes sociales y web relacionadas con mi perfil.</p>
+              </div>
+              <div class="card-footer m-0 row ">
+                <i class="fab fa-brands fa-html5  col d-flex  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                </i>
+                <i class="fab fa-brands fa-css3   col d-flex  ">
+                  <h6 class="d-flex align-items-center ml-1"  id="texto_icono_tarjeta"> CSS3</h6>
+                </i>
+                <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+                </i>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="col col-md-4 mb-4">
+          <a class="text-decoration-none text-white" target="_blank" href="#">
+            <div id="tarjeta" class="card">
+              <h4 class="card-header font-weight-bold d-flex justify-content-between">Página de comentarios <i
+                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                  style="color: #ffffff;"></i></h4>
+              <div class="card-body">
+
+
+                <p id="parrafo_tarjeta" class="card-text">Editable, fácil uso, colores amigables y testimonios.</p>
+              </div>
+              <div class="card-footer m-0 row ">
+                <i class="fab fa-brands fa-html5  col d-flex  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                </i>
+                <i class="fab fa-brands fa-css3   col d-flex  ">
+                  <h6 class="d-flex align-items-center  ml-1" id="texto_icono_tarjeta"> CSS3</h6>
+                </i>
+                <i class="fab fa-brands fa-react  col d-flex content  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> React</h6>
+                </i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center ">
+
+        <!-- Tarjeta 3 -->
+        <div class="col col-md-4  mb-4">
+          <a class="text-decoration-none text-white" target="_blank" href="#">
+            <div id="tarjeta" class="tarjeta card">
+              <h4 class="card-header font-weight-bold d-flex justify-content-between">Proyecto 3 <i
+                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                  style="color: #ffffff;"></i></h4>
+              <div class="card-body">
+
+
+                <p id="parrafo_tarjeta" class="card-text">    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="card-footer m-0 row ">
+                <i class="fab fa-brands fa-html5  col d-flex  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                </i>
+                <i class="fab fa-brands fa-css3   col d-flex  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> CSS3</h6>
+                </i>
+                <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+                </i>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="col col-md-4 mb-4 ">
+          <a class="text-decoration-none text-white " target="_blank" href="#">
+            <div id="tarjeta" class="card ">
+              <h4 class="card-header font-weight-bold d-flex justify-content-between">Proyecto 4 <i
+                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                  style="color: #ffffff;"></i></h4>
+              <div class="card-body">
+
+
+                <p id="parrafo_tarjeta" class="card-text">    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="card-footer m-0 row ">
+                <i class="fab fa-brands fa-html5  col d-flex  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                </i>
+                <i class="fab fa-brands fa-css3   col d-flex  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> CSS3</h6>
+                </i>
+                <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
+                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+                </i>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+  </section>
+
+  <section id="contacto">
+  <footer class=" container-fluid">
+<div class="row">
+<div class="col-4"><i class="fab fa-pushed fa-xs fa-fw"></i> Cordoba, España.</div>
+<div class="col-4">Hecho con <i class="fa fa-heart" aria-hidden="true"></i> por Pulldev</i></div>
+<div class="col-4"> Código libre, úsame como quieras</div>
+
+</div>
+
+
+
+  </footer>
+</section>
+  
 </body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/5b9c44b176.js" crossorigin="anonymous"></script>
 <script src="/JS/script.js"></script>
 
