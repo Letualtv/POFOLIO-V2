@@ -16,7 +16,7 @@
 <body>
 
   <section id="presentacion" class="row">
-    <div class="col-md-8 align-self-center pl-5">
+    <div id="contenedor_presentacion" class="col-md-8 align-self-center ">
       <h2 class="font-weight-bold">¡Bienvenid@!&#128075;</h2>
       <div>
         <p class="mellamo font-italic pl-2 m-1  font-weight-normal">
@@ -33,21 +33,21 @@
       <div class="container">
         <div class="row flex-nowrap">
           <div class="col-md-2">
-            <a target="_blank" href="#" class=" text-center ">
+            <a target="_blank" href="https://www.linkedin.com/in/antoniopulidof/" class=" text-center ">
               <div class="card-body glow-icon1">
                 <i id="iconos_principales" class="fab fa-linkedin fa-3x"></i>
               </div>
             </a>
           </div>
           <div class="col-md-2">
-            <a target="_blank" href="#" class=" text-center">
+            <a target="_blank" href="https://github.com/Letualtv" class=" text-center">
               <div class="card-body glow-icon2">
                 <i id="iconos_principales" class="fab fa-github fa-3x"></i>
               </div>
             </a>
           </div>
           <div class="col-md-2">
-            <a target="_blank" href="#" class=" text-center">
+            <a target="_blank" href="https://www.instagram.com/puli_dev/" class=" text-center">
               <div class="card-body glow-icon3">
                 <i id="iconos_principales" class="fab fa-instagram fa-3x"></i>
               </div>
@@ -61,12 +61,12 @@
 
   </section>
 
-  <section id="sobremi" class="row">
-    <div class="container ">
+  <section id="sobremi" class="row ">
+    <div id="sobremi_container" class="container">
       <div class="row">
 
         <div class="col-md-5 ">
-          <img src="/IMG/perroespacial.png" alt="Imagen" class="floating-image img-fluid mx-auto">
+          <img src="/IMG/perroespacial.png" alt="Imagen" class="mt-1 floating-image img-fluid mx-auto">
         </div>
 
         <div class="col-md-6 container width ">
@@ -81,36 +81,36 @@
         </div>
       </div>
     </div>
-
-    <div id="stack" class="container">
+  </section>
+    <div id="stack" class="container-fluid">
       <h1 class="text-center  font-weight-bold"> STACK </h1>
-      <div class="row mt-5 ">
+      <div  class="row mt-5 ">
         <i id="html5_ico" class="fab fa-html5 fa-5x fa-fw mb-5 col"></i>
         <i id="css3_ico" class="fab fa-css3 fa-5x fa-fw mb-5 col"></i>
-        <i id="js_ico" class="fab fa-brands fa-js fa-5x fa-fw col"></i>
-        <i id="bootstrap_ico" class="fab fa-brands fa-bootstrap fa-5x fa-fw col"></i>
-        <i id="angular_ico" class="fab fa-brands fa-angular fa-5x fa-fw col"></i>
+        <i id="js_ico" class="fab fa-brands fa-js fa-5x mb-5 fa-fw col"></i>
+        <i id="bootstrap_ico" class="fab fa-brands fa-bootstrap mb-5 fa-5x fa-fw col"></i>
+        <i id="angular_ico" class="fab fa-brands fa-angular mb-5 fa-5x fa-fw col"></i>
         <i id="react_ico" class="fab fa-brands fa-react fa-5x fa-fw col"></i>
-        <i id="git_ico" class="fab fa-brands fa-git-alt fa-5x fa-fw col"></i>
+        <i id="git_ico" class="fab fa-brands fa-git-alt mb-5 fa-5x fa-fw col"></i>
 
 
       </div>
     </div>
 
 
-  </section>
+
 
 
 
   <section id="proyectos" class="container-fluid">
 
-    <div class=" m-3 mx-5">
+    <div class=" mt-3 ">
       <h1 class="text-center font-weight-bold"> PROYECTOS </h1>
 
       <div class="row justify-content-md-center ">
         <!-- Tarjeta 1 -->
-        <div class="col col-md-4 mb-4">
-          <a class="text-decoration-none text-white" target="_blank" href="#">
+        <div class="col col-md-5 m-4">
+          <a class="text-decoration-none text-white" target="_blank" href="https://letualtv.github.io/Puli_dev_linktree/">
             <div id="tarjeta" class="tarjeta card">
               <h4 class="card-header font-weight-bold d-flex justify-content-between ">Linktree <i
                   class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
@@ -134,8 +134,8 @@
         </div>
 
         <!-- Tarjeta 2 -->
-        <div class="col col-md-4 mb-4">
-          <a class="text-decoration-none text-white" target="_blank" href="#">
+        <div class="col col-md-5 m-4">
+          <a class="text-decoration-none text-white" target="_blank" href="https://github.com/Letualtv/Testimonios">
             <div id="tarjeta" class="card">
               <h4 class="card-header font-weight-bold d-flex justify-content-between">Página de comentarios <i
                   class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
@@ -164,7 +164,7 @@
       <div class="row justify-content-md-center ">
 
         <!-- Tarjeta 3 -->
-        <div class="col col-md-4  mb-4">
+        <div class="col col-md-5  m-4">
           <a class="text-decoration-none text-white" target="_blank" href="#">
             <div id="tarjeta" class="tarjeta card">
               <h4 class="card-header font-weight-bold d-flex justify-content-between">Proyecto 3 <i
@@ -192,7 +192,7 @@
         </div>
 
         <!-- Tarjeta 4 -->
-        <div class="col col-md-4 mb-4 ">
+        <div class="col col-md-5 m-4 ">
           <a class="text-decoration-none text-white " target="_blank" href="#">
             <div id="tarjeta" class="card ">
               <h4 class="card-header font-weight-bold d-flex justify-content-between">Proyecto 4 <i
@@ -223,17 +223,42 @@
   </section>
 
   <section id="contacto">
-  <footer class=" container-fluid">
-<div class="row">
-<div class="col-4"><i class="fab fa-pushed fa-xs fa-fw"></i> Cordoba, España.</div>
-<div class="col-4">Hecho con <i class="fa fa-heart" aria-hidden="true"></i> por Pulldev</i></div>
-<div class="col-4"> Código libre, úsame como quieras</div>
+      <h1 id="h1_contacto" class="px-1 text-center font-weight-bold">CONTACTO</h1>
+    <div class="container col-xl-6 col-sm-auto">
 
+      <form action="https://formsubmit.co/letual@outlook.es" method="POST">
+          <div class="form-group">
+              <label for="nombre" class="font-weight-bold">Nombre:</label>
+              <input name="name" type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+              <label for="email" class="font-weight-bold">Correo Electrónico:</label>
+              <input name="email" type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
+          </div>
+          <div class="form-group">
+              <label for="mensaje" class="font-weight-bold">Mensaje:</label>
+              <textarea name="text" class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button id="form_enviar" type="submit" class="btn font-weight-bold">Enviar <i id="avion_enviar" class="fa-regular fa-paper-plane"></i></button>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contacto">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_autoresponse" value="¡Gracias por contactar conmigo! Responderé lo antes posible 😁">
+      </form>
+  </div>
+
+
+  <footer id="footer" class="card-footer   container-fluid ">
+<div class="row   ">
+<div class="col-sm text-left"> <h6><i class="fab fa-pushed  "></i> Cordoba, España.</h6></div>
+<div class="col-sm text-center"><h6>Hecho con <i  class="fa fa-heart fa-xs " aria-hidden="true"></i> por Puli_dev</i></h6></div>
+<div class="col-sm text-right"><h6>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2023 Antonio Pulido</h6></div>
 </div>
-
-
-
   </footer>
+
+
+
+
 </section>
   
 </body>

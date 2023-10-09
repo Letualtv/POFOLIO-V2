@@ -1,22 +1,23 @@
 #proyectos {
-    min-height: 130vh;
+    min-height: 120vh;
     max-height: auto;
-    color: white;
-    text-shadow:  0px 2px 3px #000,
-    0px 2px 0px #000;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1211%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(104%2c 107%2c 80%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c165 C 192%2c135.2 576%2c14.8 960%2c16 C 1344%2c17.2 1728%2c140 1920%2c171L1920 1080L0 1080z' fill='rgba(134%2c 160%2c 115%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c340 C 384%2c378.2 1536%2c492.8 1920%2c531L1920 1080L0 1080z' fill='rgba(134%2c 160%2c 115%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c559 C 128%2c584.4 384%2c669.2 640%2c686 C 896%2c702.8 1024%2c621.2 1280%2c643 C 1536%2c664.8 1792%2c764.6 1920%2c795L1920 1080L0 1080z' fill='rgba(171%2c 169%2c 195%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c839 C 128%2c861.2 384%2c942.2 640%2c950 C 896%2c957.8 1024%2c864.8 1280%2c878 C 1536%2c891.2 1792%2c988.4 1920%2c1016L1920 1080L0 1080z' fill='rgba(171%2c 169%2c 195%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1211'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");    
+    color: #1c1c1c;
     padding-top: 2em;
+    background-repeat:no-repeat;
+background-color: #E2EAFC;
 }
 #proyectos h1 {
-    text-decoration: underline yellow;
+    text-decoration: underline #1f7a8c;
     margin-bottom: 2em;
     margin-top: 2em;
+    
 
   }
 #tarjeta {
-    background-color: #565F74;
-border: solid 5px black;
+    background-color: #001524;
 border-radius: 9px;
+filter: brightness(120%);
+
 }
 #tarjeta:hover{
 transform: translateY(-10px);
@@ -26,8 +27,20 @@ transition: transform 0.3s ease;
 
 
 #contacto {
-    height: 120vh;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1238%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(171%2c 169%2c 195%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c125 C 128%2c134.8 384%2c197.6 640%2c174 C 896%2c150.4 1024%2c-1 1280%2c7 C 1536%2c15 1792%2c172.6 1920%2c214L1920 1080L0 1080z' fill='rgba(86%2c 95%2c 116%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c344 C 128%2c369 384%2c480.8 640%2c469 C 896%2c457.2 1024%2c277.4 1280%2c285 C 1536%2c292.6 1792%2c462.6 1920%2c507L1920 1080L0 1080z' fill='rgba(86%2c 95%2c 116%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c626 C 128%2c652 384%2c747.4 640%2c756 C 896%2c764.6 1024%2c658.2 1280%2c669 C 1536%2c679.8 1792%2c781.8 1920%2c810L1920 1080L0 1080z' fill='rgba(0%2c 21%2c 36%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c864 C 192%2c895.2 576%2c1026.4 960%2c1020 C 1344%2c1013.6 1728%2c869.6 1920%2c832L1920 1080L0 1080z' fill='rgba(0%2c 21%2c 36%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1238'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");    
+    min-height: 100vh;
+    max-height: auto;
+    color: whitesmoke;
+    background-color: #001524;
+    padding-top: 4em;
+}
+#footer {
+    color: #E2EAFC;
+    background-color: rgba(0, 21, 36, 1);
+    border-top: 1px solid #1f7a8c; 
+  margin-top: 6%;
+}
+#footer div {
+padding-top: 3px;
 }
 
 #parrafo_tarjeta {
@@ -35,4 +48,27 @@ transition: transform 0.3s ease;
 }
 #texto_icono_tarjeta {
     font-size: 0.7rem;
+}
+
+#h1_contacto {
+    text-decoration: underline #1f7a8c;
+    margin-bottom: 2em;
+}
+#form_enviar {
+    width: 100px ;
+    color: black;
+    background-color: #E2EAFC;
+}
+#form_enviar:hover {
+    background-color: #e2eafc8c;
+}
+#avion_enviar{
+    opacity: 0;
+}
+#form_enviar:hover #avion_enviar  {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.form-group{
+    padding: 7%em;
 }
