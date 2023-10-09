@@ -1,15 +1,15 @@
 #proyectos {
-    min-height: 120vh;
+    min-height: 110vh;
     max-height: auto;
     color: #1c1c1c;
-    padding-top: 2em;
+    padding-top: 1%;
     background-repeat:no-repeat;
 background-color: #E2EAFC;
 }
 #proyectos h1 {
     text-decoration: underline #1f7a8c;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: 4%;
+    margin-top: 4%;
     
 
   }
@@ -31,16 +31,18 @@ transition: transform 0.3s ease;
     max-height: auto;
     color: whitesmoke;
     background-color: #001524;
-    padding-top: 4em;
+    padding-top: 4%;
 }
 #footer {
     color: #E2EAFC;
+    min-height: auto;
+
     background-color: rgba(0, 21, 36, 1);
     border-top: 1px solid #1f7a8c; 
   margin-top: 6%;
 }
 #footer div {
-padding-top: 3px;
+padding-top: 4px;
 }
 
 #parrafo_tarjeta {
@@ -52,7 +54,7 @@ padding-top: 3px;
 
 #h1_contacto {
     text-decoration: underline #1f7a8c;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 #form_enviar {
     width: 100px ;
@@ -70,5 +72,5 @@ padding-top: 3px;
     transition: opacity 0.3s ease-in-out;
 }
 .form-group{
-    padding: 7%em;
+    padding-bottom: 0.5em;
 }
