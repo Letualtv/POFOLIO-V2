@@ -44,6 +44,8 @@
     background-color: rgba(0, 21, 36, 1);
     border-top: 1px solid #1f7a8c;
     margin-top: 6em;
+    position: absolute;
+  bottom: 0;
 }
 
 #footer div {
