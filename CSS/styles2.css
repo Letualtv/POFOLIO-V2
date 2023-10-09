@@ -75,14 +75,6 @@
     background-color: #e2eafc8c;
 }
 
-#avion_enviar {
-    opacity: 0;
-}
-
-#form_enviar:hover #avion_enviar {
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-}
 
 .form-group {
     padding-bottom: 0.5em;
