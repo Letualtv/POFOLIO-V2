@@ -1,22 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
 
+/* Configuracion general */
 
 :root {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-overflow-x: hidden;
-background-color: #001524;
-overflow-x: hidden;
+  overflow-x: hidden;
+  background-color: #001524;
+  overflow-x: hidden;
 }
+
 html {
   background-color: #001524;
 }
+/* Pantalla principal */
 
 #presentacion {
   background-color: #001524;
-min-height: 100vh;
+  min-height: 100vh;
   max-height: auto;
   color: #edf2fb;
 }
+
 .AP {
   font-size: 15vh;
 }
@@ -24,33 +28,36 @@ min-height: 100vh;
 .mellamo {
   font-size: 1rem;
   position: absolute;
+  padding-left: 1%;
+}
 
-}
 #contenedor_presentacion h1 {
-padding-left: 4%;
+  padding-left: 4%;
 }
-#contenedor_presentacion h3{
+
+#contenedor_presentacion h3 {
   margin-left: 6%;
 }
+
 #contenedor_presentacion {
   padding-left: 4%;
 }
 
 /* Cambio de color y tamaño:hover iconos de pagina principal */
-.glow-icon1{
+.glow-icon1 {
   color: #edf2fb;
   text-shadow: 0 0 2px black;
-
 }
+
 .glow-icon1:hover {
   color: #2196F3;
   text-shadow: 0px 0px 5px black,
-  0px 0px 1px black;
+    0px 0px 1px black;
   transform: scale(1.3);
   transition: transform 0.5s ease;
-
 }
-.glow-icon2{
+
+.glow-icon2 {
   color: #edf2fb;
 }
 
@@ -59,16 +66,20 @@ padding-left: 4%;
   color: blanchedalmond;
   transform: scale(1.3);
   text-shadow: 0px 0px 5px black,
-   0px 0px 1px black;}
-.glow-icon3{
+    0px 0px 1px black;
+}
+
+.glow-icon3 {
   color: #edf2fb;
 }
+
 .glow-icon3:hover {
   transition: transform 0.5s ease;
   color: #DA3E83;
   transform: scale(1.3);
   text-shadow: 0px 0px 5px black,
-   0px 0px 1px black;}
+    0px 0px 1px black;
+}
 
 
 /* Animación escritura programador pagina principal */
@@ -80,27 +91,49 @@ padding-left: 4%;
   overflow: hidden;
   border-right: 0.15em solid #FFC107;
   white-space: nowrap;
-  animation: typing 2.5s steps(21), blink 1s steps(1) infinite;;
+  animation: typing 2.5s steps(21), blink 1s steps(1) infinite;
+  ;
   margin-left: 6%;
 
 }
-@media only screen and (max-width: 800px) {
-	#escritura-automatica  {
-		font-size: 2.5vh;
 
+/* Redimension para moviles - tablets */
 
-	}
+@media only screen and (max-width: 820px) {
+  #escritura-automatica {
+    font-size: 2.5vh;
+  }
+
+  #bienvenido {
+    padding-left: 2%;
+  }
+
+  .mellamo {
+    padding-left: 2%;
+  }
+
+  #glow_icons {
+    margin: 2rem;
+  }
+
   .AP {
     font-size: 13vh;
   }
 }
+
 @media only screen and (max-width: 400px) {
-	#escritura-automatica  {
-		font-size: 2vh;
-	}
+  #escritura-automatica {
+    font-size: 2vh;
+  }
+
+  #glow_icons {
+    margin: 1rem;
+  }
+
   .AP {
     font-size: 10vh;
   }
+
 }
 
 @keyframes typing {
@@ -119,22 +152,22 @@ padding-left: 4%;
 #sobremi_container {
   padding-top: 10%;
 }
+
 #sobremi {
   color: #1c1c1c;
-
   min-height: 100vh;
   max-height: auto;
-padding: 2em;
-background-repeat:no-repeat;
-background-color: #E2EAFC;
-background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1061%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(0%2c 21%2c 36%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c21 C 128%2c39.6 384%2c114.6 640%2c114 C 896%2c113.4 1024%2c2.4 1280%2c18 C 1536%2c33.6 1792%2c157.2 1920%2c192L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c379 C 128%2c364.4 384%2c304.6 640%2c306 C 896%2c307.4 1024%2c384 1280%2c386 C 1536%2c388 1792%2c330 1920%2c316L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c493 C 128%2c513.4 384%2c586.2 640%2c595 C 896%2c603.8 1024%2c530.6 1280%2c537 C 1536%2c543.4 1792%2c609 1920%2c627L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c689 C 128%2c718.4 384%2c835.8 640%2c836 C 896%2c836.2 1024%2c690.4 1280%2c690 C 1536%2c689.6 1792%2c805.2 1920%2c834L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c1045 C 192%2c1015 576%2c892.6 960%2c895 C 1344%2c897.4 1728%2c1024.6 1920%2c1057L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1061'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  padding: 2em;
+  background-repeat: no-repeat;
+  background-color: #E2EAFC;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1061%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(0%2c 21%2c 36%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c21 C 128%2c39.6 384%2c114.6 640%2c114 C 896%2c113.4 1024%2c2.4 1280%2c18 C 1536%2c33.6 1792%2c157.2 1920%2c192L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c379 C 128%2c364.4 384%2c304.6 640%2c306 C 896%2c307.4 1024%2c384 1280%2c386 C 1536%2c388 1792%2c330 1920%2c316L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c493 C 128%2c513.4 384%2c586.2 640%2c595 C 896%2c603.8 1024%2c530.6 1280%2c537 C 1536%2c543.4 1792%2c609 1920%2c627L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c689 C 128%2c718.4 384%2c835.8 640%2c836 C 896%2c836.2 1024%2c690.4 1280%2c690 C 1536%2c689.6 1792%2c805.2 1920%2c834L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c1045 C 192%2c1015 576%2c892.6 960%2c895 C 1344%2c897.4 1728%2c1024.6 1920%2c1057L1920 1080L0 1080z' fill='rgba(226%2c 234%2c 252%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1061'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .text-decoration-underline {
   text-decoration: underline #1f7a8c;
 }
-/* animacion perro espacial */
 
+/* animacion perro espacial */
 
 @keyframes floatImage {
   0% {
@@ -158,58 +191,70 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 
 /* seccion 3 stack */
-
 #stack {
   color: whitesmoke;
-background-color: #001524;
+  background-color: #001524;
   padding: 3em;
 }
-
 
 #stack h1 {
   text-decoration: underline #1f7a8c;
 }
+
 /* hover de lenguajes */
 
 #html5_ico:hover {
   transition: transform 0.5s ease;
   color: #FF5722;
   transform: scale(1.3);
-  text-shadow:  0px 2px 3px #000,
-  0px 2px 0px #000;}
+  text-shadow: 0px 2px 3px #000,
+    0px 2px 0px #000;
+}
+
 #css3_ico:hover {
   transition: transform 0.5s ease;
   color: #2196F3;
   transform: scale(1.3);
-  text-shadow:  0px 2px 3px #000,
-  0px 2px 0px #000;}
+  text-shadow: 0px 2px 3px #000,
+    0px 2px 0px #000;
+}
+
 #js_ico:hover {
   transition: transform 0.5s ease;
   color: #FFDF00;
   transform: scale(1.3);
-  text-shadow:  0px 2px 3px #000,
-  0px 2px 0px #000;}
+  text-shadow: 0px 2px 3px #000,
+    0px 2px 0px #000;
+}
+
 #bootstrap_ico:hover {
   transition: transform 0.5s ease;
   color: #8411F6;
   transform: scale(1.3);
-  text-shadow:  0px 2px 3px #000,
-  0px 2px 0px #000;}
+  text-shadow: 0px 2px 3px #000,
+    0px 2px 0px #000;
+}
+
 #angular_ico:hover {
   transition: transform 0.5s ease;
   color: #D6002F;
   transform: scale(1.3);
-  text-shadow:  0px 2px 3px #000,
-  0px 2px 0px #000;}
+  text-shadow: 0px 2px 3px #000,
+    0px 2px 0px #000;
+}
+
 #react_ico:hover {
   transition: transform 0.5s ease;
   color: #5ADAFD;
   transform: scale(1.3);
-  text-shadow:  0px 2px 3px #000,
-  0px 2px 0px #000;}
+  text-shadow: 0px 2px 3px #000,
+    0px 2px 0px #000;
+}
+
 #git_ico:hover {
   transition: transform 0.5s ease;
   color: #F05030;
   transform: scale(1.3);
-  text-shadow:  0px 2px 3px #000,
-  0px 2px 0px #000;}
+  text-shadow: 0px 2px 3px #000,
+    0px 2px 0px #000;
+}
