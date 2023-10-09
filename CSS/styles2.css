@@ -19,6 +19,8 @@
     background-color: #001524;
     border-radius: 9px;
     filter: brightness(120%);
+    min-height: 220px;
+    max-height: auto;
 }
 
 #tarjeta:hover {
@@ -36,23 +38,10 @@
     padding-top: 4%;
 }
 
-/* configuracion footer */
-
-#footer {
-    color: #E2EAFC;
-    min-height: auto;
-    background-color: rgba(0, 21, 36, 1);
-    border-top: 1px solid #1f7a8c;
-    margin-top: 6em;
-    position: absolute;
-  bottom: 0;
-}
-
-#footer div {
-    padding-top: 4px;
-}
-
 /* configuracion de formulario */
+form {
+    margin-bottom: 130px;
+}
 
 #parrafo_tarjeta {
     font-size: 1.15rem;
@@ -77,7 +66,45 @@
     background-color: #e2eafc8c;
 }
 
-
 .form-group {
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
+}
+
+/* configuracion footer */
+
+#footer {
+    color: #E2EAFC;
+    min-height: auto;
+    background-color: rgba(0, 21, 36, 1);
+    border-top: 1px solid #1f7a8c;
+margin-top: 4em;
+    position: absolute;
+  bottom: 0;
+}
+
+
+
+#footer_icons {
+    color: white;
+}
+#footer_icons i:hover {
+    transform: scale(1.3);
+    transition: transform 0.2s ease-in;
+}
+
+.cmn-divfloat {
+    position: fixed ;
+    bottom: 75px;
+    right: 15px;
+    display: none;
+    background-color: #1f7a8c;
+    border-radius: 30px;
+
+
+}
+.cmn-btncircle {
+    width: 40px ;
+    height: 40px ;
+    padding: 6px 0px;
+    text-align: center;
 }

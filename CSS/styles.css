@@ -7,12 +7,14 @@
   overflow-x: hidden;
   background-color: #001524;
 width: 100%;
+
 }
 
 html {
   background-color: #001524;
   min-height: 100%;
   position: relative;
+  scroll-behavior: smooth
 }
 /* Pantalla principal */
 
