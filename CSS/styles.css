@@ -67,13 +67,15 @@ padding-left: 4%;
 /* Animación escritura programador pagina principal */
 
 #escritura-automatica {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   display: block;
-  width: 33ch;
+  width: 32ch;
   overflow: hidden;
-  border-right: 0.15em solid yellow;
+  border-right: 0.15em solid #FFC107;
   white-space: nowrap;
-  animation: typing 2s steps(25), blink 0.5s step-end infinite alternate;
+  animation: typing 2s steps(27), blink 0.5s step-end infinite alternate;
+  margin-left: 6%;
+
 }
 
 

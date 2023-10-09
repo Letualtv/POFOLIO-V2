@@ -32,6 +32,7 @@ transition: transform 0.3s ease;
     color: whitesmoke;
     background-color: #001524;
     padding-top: 4%;
+
 }
 #footer {
     color: #E2EAFC;
@@ -39,7 +40,7 @@ transition: transform 0.3s ease;
 
     background-color: rgba(0, 21, 36, 1);
     border-top: 1px solid #1f7a8c; 
-  margin-top: 6%;
+  margin-top: 6em;
 }
 #footer div {
 padding-top: 4px;
