@@ -93,7 +93,7 @@ margin-bottom: -2%;
   white-space: nowrap;
   animation: typing 2.5s steps(21), blink 1s steps(1) infinite;
   ;
-  margin-left: 6%;
+  margin-left: 5%;
 
 }
 
@@ -112,9 +112,7 @@ margin-bottom: -2%;
     padding-left: 3%;
   }
 
-  #glow_icons {
-    margin: 2rem;
-  }
+
 
   .AP {
     font-size: 13vh;
@@ -126,9 +124,6 @@ margin-bottom: -2%;
     font-size: 2vh;
   }
 
-  #glow_icons {
-    margin: 1rem;
-  }
 
   .AP {
     font-size: 10vh;
