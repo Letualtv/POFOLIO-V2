@@ -13,9 +13,12 @@ html {
 
 #presentacion {
   background-color: #001524;
-  min-height: 100vh;
+min-height: 100vh;
   max-height: auto;
   color: #edf2fb;
+}
+.AP {
+  font-size: 15vh;
 }
 
 .mellamo {
@@ -71,21 +74,38 @@ padding-left: 4%;
 /* Animación escritura programador pagina principal */
 
 #escritura-automatica {
-  font-size: 1.2em;
+  font-size: 3vh;
   display: block;
   width: 32ch;
   overflow: hidden;
   border-right: 0.15em solid #FFC107;
   white-space: nowrap;
-  animation: typing 2s steps(27), blink 0.5s step-end infinite alternate;
+  animation: typing 2.5s steps(21), blink 1s steps(1) infinite;;
   margin-left: 6%;
 
 }
+@media only screen and (max-width: 800px) {
+	#escritura-automatica  {
+		font-size: 2.5vh;
 
+
+	}
+  .AP {
+    font-size: 13vh;
+  }
+}
+@media only screen and (max-width: 400px) {
+	#escritura-automatica  {
+		font-size: 2vh;
+	}
+  .AP {
+    font-size: 10vh;
+  }
+}
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
 
