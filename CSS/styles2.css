@@ -11,8 +11,7 @@
 
 #proyectos h1 {
     text-decoration: underline #1f7a8c;
-    margin-bottom: 4%;
-    margin-top: 4%;
+
 }
 
 #tarjeta {
@@ -22,8 +21,15 @@
     filter: brightness(120%);
     min-height: 220px;
     max-height: auto;
+    color: white;
+}
+#parrafo_tarjeta {
+    font-size: 1.2rem;
 }
 
+#texto_icono_tarjeta {
+    font-size: 0.7rem;
+}
 #tarjeta:hover {
     transform: translateY(-10px);
     transition: transform 0.3s ease;
@@ -32,24 +38,17 @@
 /* seccion 5 contacto */
 
 #contacto {
-min-height: 80vh;
-max-width: auto;
-padding-bottom: 17vh;
+min-height: 100vh;
+max-height: auto;
+padding-bottom: 3em;
     color: whitesmoke;
     background-color: #001524;
     padding-top: 4em;
 }
 
+
+
 /* configuracion de formulario */
-
-
-#parrafo_tarjeta {
-    font-size: 1.2rem;
-}
-
-#texto_icono_tarjeta {
-    font-size: 0.7rem;
-}
 
 #h1_contacto {
     text-decoration: underline #1f7a8c;
@@ -69,16 +68,20 @@ padding-bottom: 17vh;
 .form-group {
     padding-bottom: 1em;
 }
+.form-group label {
+    padding-bottom: 0.5em;
+}
 
 /* configuracion footer */
 
 #footer {
     color: #E2EAFC;
-    min-height: 5vh;
-    max-height: auto;
     background-color: rgba(0, 21, 36, 1);
     border-top: 1px solid #1f7a8c;
-    position: absolute;
+padding: 4em 0em;
+min-height: 3em;
+
+position: absolute;
   bottom: 0;
 }
 

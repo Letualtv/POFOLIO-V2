@@ -9,46 +9,43 @@
   <link rel="stylesheet" href="/CSS/styles.css" />
   <link rel="stylesheet" href="/CSS/styles2.css" />
   <link rel="stylesheet" href="/CSS/styles3.css" />
-
   <link rel="icon" type="image/jpg" href="/IMG/favicon.png" />
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
 
   <section id="presentacion" class="row">
     <div id="contenedor_presentacion" class="col-xl-8 col-md-12 col-sm-12 align-self-center ">
-      <h2 id="bienvenido" class="font-weight-bold pb-3">¡Bienvenid@!&#128075;</h2>
+      <h2 id="bienvenido" class="fw-bold pb-3">¡Bienvenid@!&#128075;</h2>
       <div>
-        <p class="mellamo font-italic   font-weight-normal">
+        <p class="mellamo font-italic   fw-normal">
           Me llamo
         </p>
-        <h1 class="AP font-weight-bolder mx-auto ">Antonio Pu<span
-            class="AP  font-weight-bolder text-warning">lido</span> </h1>
-        <h2 id="escritura-automatica" class="font-italic font-weight-bold">Y SOY DESARROLLADOR WEB <span
+        <h1 class="AP fw-bolder mx-auto ">Antonio Pu<span
+            class="AP  fw-bolder text-warning">lido</span> </h1>
+        <h2 id="escritura-automatica" class="font-italic fw-bold">Y SOY DESARROLLADOR WEB <span
             class=" text-warning">JUNIOR</span></h2>
       </div>
       <div class="container-fluid">
         <div class="row flex-nowrap ">
           <div id="glow_icons" class=" col-2 m-2  d-flex ">
-            <a target="_blank" href="https://www.linkedin.com/in/antoniopulidof/" class="  ">
-              <div class="card-body glow-icon1">
+            <a target="_blank" href="https://www.linkedin.com/in/antoniopulidof/" class="glow-icon1">
+              <div class="card-body ">
                 <i id="iconos_principales" class="fab fa-linkedin fa-3x"></i>
               </div>
             </a>
           </div>
           <div id="glow_icons" class="col-2 m-2 d-flex ">
-            <a target="_blank" href="https://github.com/Letualtv" class=" ">
-              <div class="card-body glow-icon2">
+            <a target="_blank" href="https://github.com/Letualtv" class=" glow-icon2">
+              <div class="card-body ">
                 <i id="iconos_principales" class="fab fa-github fa-3x"></i>
               </div>
             </a>
           </div>
           <div id="glow_icons" class="col-2 m-2 d-flex ">
-            <a target="_blank" href="https://www.instagram.com/puli_dev/" class=" ">
-              <div class="card-body glow-icon3">
+            <a target="_blank" href="https://www.instagram.com/puli_dev/" class=" glow-icon3">
+              <div class="card-body ">
                 <i id="iconos_principales" class="fab fa-instagram fa-3x"></i>
               </div>
             </a>
@@ -62,38 +59,53 @@
   </section>
 
   <section id="sobremi" class="row ">
-    <div id="sobremi_container" class="container">
+    <div id="sobremi_container" class="container-fluid">
       <div class="row">
 
         <div class="col-md-5 ">
-          <img src="/IMG/perroespacial.png" alt="Imagen" class="mt-1 floating-image img-fluid mx-auto">
+          <img src="/IMG/perroespacial.png" alt="Imagen" width="450px" class="mt-1 floating-image img-fluid d-block mx-auto">
         </div>
 
-        <div class="col-md-6 container width ">
-          <h1 class="text-decoration-underline text-center  font-weight-bold">
+        <div class="col-md-6 container-fluid ">
+          <h1 class="text-decoration-underline text-center  fw-bold">
             SOBRE MÍ </h1><br>
-          <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.</h5><br>
-          <h5 class="font-weight-bold">Por eso, tras recorrer España de Norte a Sur y trabajar en distintos sectores por
-            fin he podido centrarme en lo que desde niño es mi pasión.</h5>
-          <br>
-          <h5 class="font-weight-bold">Actualmente estoy terminando el ciclo superior de DAW (MEDAC) y realizando
-            muchísimos cursos y bootcamps para mejorar mis skills.</h5>
+          <h5 class="fw-bold"><p>Después de recorrer España de Norte a Sur 🌎, trabajar en diferentes sectores
+            y vivir muchas aventuras ⛰️ decidí en 2022 que viviré del desarrollo web 💻.
+          </p>
+          <p class="fw-bold">La tecnología y los mundos de fantasía 🛸 se entrelazan con mi vida cotidiana desde muy pequeño 
+            y ésto me ha hecho una persona llena de creatividad y energía 😁 que pone a prueba su potencial mejorando
+            habilidades y capacidades día a día, con esfuerzo y dediación 🦾.</p>  
+            <p class="fw-normal">Cursos / bootcamps que he realizado 🤓:
+              <ul class="fw-normal">
+              <li>Técnico Superior en Desarrollo de Aplicaciones Web - Medac (2022-2024)</li>
+              <li>British Council Aptis ESOL B2 (2023)</li>
+              <li>HTML, Java, SQL, C++ - Programming Hub</li>
+              <li>HTML5, CSS3 y JS - Udemy (Victor Robles Web)</li>
+              <li>Curso de React - FreeCodeCamp</li>
+            </ul></p></h5>
+            
+            <div class="fw-normal dropdown"> <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><h5>A ésto he de añadir libros 📚 como:</button>
+            <ul class="fw-normal dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li class="dropdown-item "> Git y GitHub desde cero - Brais Moure</li>
+              <li class="dropdown-item" > Clean Code - Robert C. Martin</li>
+              <li class="dropdown-item" > El Pogramador Pragmático - David Thomas y Andrew Hunt</li>
+            </ul></h5></div>
+        
+
         </div>
       </div>
     </div>
   </section>
-  <div id="stack" class="container-fluid">
-    <h1 class="text-center  font-weight-bold"> STACK </h1>
+  <div id="stack" class="container-fluid py-4">
+    <h1 class="text-center  fw-bold py-3"> STACK </h1>
     <div class="row mt-5 ">
-      <i id="html5_ico" class="fab fa-html5 fa-5x fa-fw mb-5 col"></i>
-      <i id="css3_ico" class="fab fa-css3 fa-5x fa-fw mb-5 col"></i>
-      <i id="js_ico" class="fab fa-brands fa-js fa-5x mb-5 fa-fw col"></i>
-      <i id="bootstrap_ico" class="fab fa-brands fa-bootstrap mb-5 fa-5x fa-fw col"></i>
-      <i id="php_ico" class="fab fa-brands fa-php mb-5 fa-5x fa-fw col"></i>
-      <i id="react_ico" class="fab fa-brands fa-react fa-5x fa-fw col"></i>
-      <i id="git_ico" class="fab fa-brands fa-git-alt mb-5 fa-5x fa-fw col"></i>
+      <i id="html5_ico" class="fab fa-html5 fa-5x fa-fw mb-5 mx-1 col"></i>
+      <i id="css3_ico" class="fab fa-css3 fa-5x fa-fw mb-5 mx-1 col"></i>
+      <i id="js_ico" class="fab fa-brands fa-js fa-5x mb-5 mx-1 fa-fw col"></i>
+      <i id="bootstrap_ico" class="fab fa-brands fa-bootstrap mx-1 mb-5 fa-5x fa-fw col"></i>
+      <i id="php_ico" class="fab fa-brands fa-php mb-5 fa-5x mx-1 fa-fw col"></i>
+      <i id="react_ico" class="fab fa-brands fa-react fa-5x mx-1 fa-fw col"></i>
+      <i id="git_ico" class="fab fa-brands fa-git-alt mb-5 mx-1 fa-5x fa-fw col"></i>
 
 
     </div>
@@ -104,18 +116,17 @@
 
 
 
-  <section id="proyectos" class="container-fluid">
+  <section id="proyectos" class="container-fluid py-4">
 
-    <div class=" mt-3 ">
-      <h1 class="text-center font-weight-bold"> PROYECTOS </h1>
+    <div class=" ">
+      <h1 class="text-center fw-bold py-5"> PROYECTOS </h1>
 
-      <div class="row justify-content-md-center ">
+      <div class="row justify-content-md-center row-cols-1 row-cols-md-2 g-4">
         <!-- Tarjeta 1 -->
-        <div class="col col-md-5 my-4">
-          <a class="text-decoration-none text-white" target="_blank"
+        <div class="col-lg-5    my-4">
+          <a id="tarjeta" class="text-decoration-none card" target="_blank"
             href="https://letualtv.github.io/Puli_dev_linktree/">
-            <div id="tarjeta" class="tarjeta card">
-              <h4 class="card-header font-weight-bold d-flex justify-content-between ">Linktree <i
+              <h4 class="card-header fw-bold d-flex justify-content-between ">Linktree <i
                   class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
                   style="color: #ffffff;"></i></h4>
               <div class="card-body">
@@ -124,24 +135,24 @@
               </div>
               <div class="card-footer m-0 row ">
                 <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
                 </i>
                 <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> CSS3</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
                 </i>
                 <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> Bootstrap</h6>
                 </i>
-              </div>
+             
             </div>
           </a>
         </div>
 
         <!-- Tarjeta 2 -->
-        <div class="col col-md-5 my-4">
-          <a class="text-decoration-none text-white" target="_blank" href="https://github.com/Letualtv/Testimonios">
-            <div id="tarjeta" class="card">
-              <h4 class="card-header font-weight-bold d-flex justify-content-between">Página de comentarios <i
+        <div class="col-lg-5  my-4">
+          <a id="tarjeta" class="text-decoration-none card" target="_blank" href="https://github.com/Letualtv/Testimonios">
+            
+              <h4 class="card-header fw-bold d-flex justify-content-between">Página de comentarios <i
                   class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
                   style="color: #ffffff;"></i></h4>
               <div class="card-body">
@@ -152,27 +163,27 @@
               </div>
               <div class="card-footer m-0 row ">
                 <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
                 </i>
                 <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center  ml-1" id="texto_icono_tarjeta"> CSS3</h6>
+                  <h6 class="d-flex align-items-center  mx-1" id="texto_icono_tarjeta"> CSS3</h6>
                 </i>
                 <i class="fab fa-brands fa-react  col d-flex content  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> React</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> React</h6>
                 </i>
-              </div>
+              
             </div>
           </a>
         </div>
-      </div>
 
-      <div class="row justify-content-md-center ">
+
+      
 
         <!-- Tarjeta 3 -->
-        <div class="col col-md-5  my-4">
-          <a class="text-decoration-none text-white" target="_blank" href="#">
-            <div id="tarjeta" class="tarjeta card">
-              <h4 class="card-header font-weight-bold d-flex justify-content-between">Proyecto 3 <i
+        <div class="col-lg-5  my-4">
+          <a id="tarjeta" class="text-decoration-none card" target="_blank" href="#">
+            
+              <h4 class="card-header fw-bold d-flex justify-content-between">Proyecto 3 <i
                   class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
                   style="color: #ffffff;"></i></h4>
               <div class="card-body">
@@ -184,24 +195,24 @@
               </div>
               <div class="card-footer m-0 row ">
                 <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
                 </i>
                 <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> CSS3</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
                 </i>
                 <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> Bootstrap</h6>
                 </i>
               </div>
-            </div>
+
           </a>
         </div>
 
         <!-- Tarjeta 4 -->
-        <div class="col col-md-5 my-4 ">
-          <a class="text-decoration-none text-white " target="_blank" href="#">
-            <div id="tarjeta" class="card ">
-              <h4 class="card-header font-weight-bold d-flex justify-content-between">Proyecto 4 <i
+        <div class="col-lg-5 my-4">
+          <a id="tarjeta" class="text-decoration-none  card" target="_blank" href="#">
+
+              <h4 class="card-header fw-bold d-flex justify-content-between">Proyecto 4 <i
                   class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
                   style="color: #ffffff;"></i></h4>
               <div class="card-body">
@@ -213,40 +224,44 @@
               </div>
               <div class="card-footer m-0 row ">
                 <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> HTML5</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
                 </i>
                 <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> CSS3</h6>
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
                 </i>
-                <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
-                  <h6 class="d-flex align-items-center ml-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+                <i class="fab fa-brands fa-bootstrap col d-flex   ">
+                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta">Bootstrap</h6>
                 </i>
               </div>
-            </div>
+
           </a>
         </div>
-
+      </div>
 
   </section>
 
+<!-- Seccion contacto -->
+
   <section id="contacto">
-    <h1 id="h1_contacto" class="px-1 text-center font-weight-bold">CONTACTO</h1>
+    <h1 id="h1_contacto" class="px-1 text-center fw-bold">CONTACTO</h1>
     <div class="container-fluid col-xl-6 col-sm-auto">
+
+ <!-- Formulario -->
 
       <form action="https://formsubmit.co/b4454ca2d54fe92d3316e719eab294ac" method="POST">
         <div class="form-group">
-          <label for="nombre" class="font-weight-bold">Nombre:</label>
+          <label for="nombre" class="fw-bold">Nombre:</label>
           <input name="name" type="text" class="form-control" id="nombre" placeholder="Tu nombre">
         </div>
         <div class="form-group">
-          <label for="email" class="font-weight-bold">Correo Electrónico:</label>
+          <label for="email" class="fw-bold">Correo Electrónico:</label>
           <input  name="email" type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
         </div>
         <div class="form-group">
-          <label for="mensaje" class="font-weight-bold">Mensaje:</label>
+          <label for="mensaje" class="fw-bold">Mensaje:</label>
           <textarea name="text" class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
         </div>
-        <button id="form_enviar" type="submit" class="btn font-weight-bold">Enviar <i id="avion_enviar"
+        <button id="form_enviar" type="submit" class="btn fw-bold">Enviar <i id="avion_enviar"
             class="fa-solid fa-at"></i></button>
         <input type="hidden" name="_next" value="https://apulido.onrender.com/#contacto">
         <input type="hidden" name="_captcha" value="false">
@@ -254,34 +269,37 @@
 
       </form>
     </div>
-  </section>
-
-    <footer id="footer" class="card-footer align-self-end container-fluid ">
-      <div class="row   ">
-        <div class="col-sm text-lg-left text-center mx-auto">
+  
+<!-- Footer -->
+    <footer id="footer" class="card-footer  container-fluid py-3">
+      <div class="row  ">
+        <div class="col-sm text-lg-left text-center align-middle d-flex justify-content-around">
           <h6><i class="fa fa-map-pin  "></i> Cordoba, España.</h6>
         </div>
-        <div class="col-sm text-lg-center  text-center mx-auto">
+        <div class="col-sm text-lg-center  text-center d-flex justify-content-around">
           <h6>Hecho con <i class="fa fa-heart fa-xs " aria-hidden="true"></i> por Puli_dev</i></h6>
         </div>
         
-      <div class="col-sm text-lg-right  flex-nowrap text-center ">
+      <div class="col-sm   flex-nowrap text-center d-flex justify-content-around">
+        <div class="text-lg-right">
         <a id="footer_icons" target="_blank" href="https:t.me/Puli_dev"><i class="fab fa-telegram fa-xl text-lg-right m-2"></i></a>
 <a id="footer_icons" target="_blank" href="https://www.instagram.com/puli_dev/"><i class="fab fa-instagram fa-xl text-lg-right m-2"></i></a>
 <a id="footer_icons"target="_blank" href="https://github.com/Letualtv"><i class="fab fa-github fa-xl text-lg-right m-2"></i></a>
 <a id="footer_icons" target="_blank" href="https://www.linkedin.com/in/antoniopulidof/"><i class="fa fa-linkedin fa-xl text-lg-right m-2" aria-hidden="true"></i></a>
-      </div>
+      </div></div>
     </footer>
 
+    <!-- Boton hacia arriba -->
     <div id="div-totop" class="cmn-divfloat">
       <a href="#presentacion" class="btn  cmn-btncircle">
           <i class="fa fa-arrow-up text-white"></i>
       </a>
   </div>
-
+</section>
 
 </body>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- repositorios -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/5b9c44b176.js" crossorigin="anonymous"></script>
 <script src="/JS/script.js"></script>
 
