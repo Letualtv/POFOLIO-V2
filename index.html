@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="/CSS/styles2.css" />
   <link rel="stylesheet" href="/CSS/styles3.css" />
   <link rel="icon" type="image/jpg" href="/IMG/favicon.png" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,8 +23,7 @@
         <p class="mellamo font-italic   fw-normal">
           Me llamo
         </p>
-        <h1 class="AP fw-bolder mx-auto ">Antonio Pu<span
-            class="AP  fw-bolder text-warning">lido</span> </h1>
+        <h1 class="AP fw-bolder mx-auto ">Antonio Pu<span class="AP  fw-bolder text-warning">lido</span> </h1>
         <h2 id="escritura-automatica" class="font-italic fw-bold">Y SOY DESARROLLADOR WEB <span
             class=" text-warning">JUNIOR</span></h2>
       </div>
@@ -63,34 +63,48 @@
       <div class="row">
 
         <div class="col-md-5 ">
-          <img src="/IMG/perroespacial.png" alt="Imagen" width="450px" class="mt-1 floating-image img-fluid d-block mx-auto">
+          <img src="/IMG/perroespacial.png" alt="Imagen" width="450px"
+            class="mt-1 floating-image img-fluid d-block mx-auto">
         </div>
 
         <div class="col-md-6 container-fluid ">
           <h1 class="text-decoration-underline text-center  fw-bold">
             SOBRE MÍ </h1><br>
-          <h5 class="fw-bold"><p>Después de recorrer España de Norte a Sur 🌎, trabajar en diferentes sectores
-            y vivir muchas aventuras ⛰️ decidí en 2022 que viviré del desarrollo web 💻.
-          </p>
-          <p class="fw-bold">La tecnología y los mundos de fantasía 🛸 se entrelazan con mi vida cotidiana desde muy pequeño 
-            y ésto me ha hecho una persona llena de creatividad y energía 😁 que pone a prueba su potencial mejorando
-            habilidades y capacidades día a día, con esfuerzo y dediación 🦾.</p>  
-            <p class="fw-normal">Cursos / bootcamps que he realizado 🤓:
-              <ul class="fw-normal">
-              <li>Técnico Superior en Desarrollo de Aplicaciones Web - Medac (2022-2024)</li>
-              <li>British Council Aptis ESOL B2 (2023)</li>
-              <li>HTML, Java, SQL, C++ - Programming Hub</li>
-              <li>HTML5, CSS3 y JS - Udemy (Victor Robles Web)</li>
-              <li>Curso de React - FreeCodeCamp</li>
-            </ul></p></h5>
-            
-            <div class="fw-normal dropdown"> <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><h5>A ésto he de añadir libros 📚 como:</button>
-            <ul class="fw-normal dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li class="dropdown-item "> Git y GitHub desde cero - Brais Moure</li>
-              <li class="dropdown-item" > Clean Code - Robert C. Martin</li>
-              <li class="dropdown-item" > El Pogramador Pragmático - David Thomas y Andrew Hunt</li>
-            </ul></h5></div>
-        
+          <h5 class="fw-bold">
+            <p>Después de recorrer España de Norte a Sur 🌎, trabajar en diferentes sectores
+              y vivir muchas aventuras ⛰️ decidí en 2022 que viviré del desarrollo web 💻.
+            </p>
+            <p class="fw-bold">La tecnología y los mundos de fantasía 🛸 se entrelazan con mi vida cotidiana desde muy
+              pequeño
+              y ésto me ha hecho una persona llena de creatividad y energía 😁 que pone a prueba su potencial mejorando
+              habilidades y capacidades día a día, con esfuerzo y dediación 🦾.</p>
+          </h5>
+          <div class="pb-2">
+          <button id="btn_collapse" class="btn btn-outline-dark btn-sm" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse1" aria-expanded="false">
+            <h5 class="panel fw-bold">Cursos / bootcamps que he realizado 🤓:
+              <span class="divider"></span>
+          </button>
+          <ul class="fw-normal collapse" id="collapse1">
+            <li>Técnico Superior en Desarrollo de Aplicaciones Web - Medac (2022-2024)</li>
+            <li>British Council Aptis ESOL B2 (2023)</li>
+            <li>HTML, Java, SQL, C++ - Programming Hub</li>
+            <li>HTML5, CSS3 y JS - Udemy (Victor Robles Web)</li>
+            <li>Curso de React - FreeCodeCamp</li>
+          </ul>
+          </h5></div>
+          <div>
+          <button id="btn_collapse" class="btn btn-outline-dark btn-sm" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse2" aria-expanded="false">
+            <h5 class="panel fw-bold">A ésto he de añadir libros 📚 como:
+          </h5></button>
+          <ul class="fw-normal collapse" id="collapse2">
+            <li class=" "> Git y GitHub desde cero - Brais Moure</li>
+            <li class=" "> Clean Code - Robert C. Martin</li>
+            <li class=""> El Pogramador Pragmático - David Thomas y Andrew Hunt</li>
+          </ul>
+          </div>
+
 
         </div>
       </div>
@@ -126,84 +140,84 @@
         <div class="col-lg-5    my-4">
           <a id="tarjeta" class="text-decoration-none card" target="_blank"
             href="https://letualtv.github.io/Puli_dev_linktree/">
-              <h4 class="card-header fw-bold d-flex justify-content-between ">Linktree <i
-                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
-                  style="color: #ffffff;"></i></h4>
-              <div class="card-body">
-                <p id="parrafo_tarjeta" class="card-text">Página sencilla con diversos enlaces a redes sociales y web
-                  relacionadas con mi perfil.</p>
-              </div>
-              <div class="card-footer m-0 row ">
-                <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
-                </i>
-                <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
-                </i>
-                <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> Bootstrap</h6>
-                </i>
-             
+            <h4 class="card-header fw-bold d-flex justify-content-between ">Linktree <i
+                class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                style="color: #ffffff;"></i></h4>
+            <div class="card-body">
+              <p id="parrafo_tarjeta" class="card-text">Página sencilla con diversos enlaces a redes sociales y web
+                relacionadas con mi perfil.</p>
+            </div>
+            <div class="card-footer m-0 row ">
+              <i class="fab fa-brands fa-html5  col d-flex  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
+              </i>
+              <i class="fab fa-brands fa-css3   col d-flex  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
+              </i>
+              <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+              </i>
+
             </div>
           </a>
         </div>
 
         <!-- Tarjeta 2 -->
         <div class="col-lg-5  my-4">
-          <a id="tarjeta" class="text-decoration-none card" target="_blank" href="https://github.com/Letualtv/Testimonios">
-            
-              <h4 class="card-header fw-bold d-flex justify-content-between">Página de comentarios <i
-                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
-                  style="color: #ffffff;"></i></h4>
-              <div class="card-body">
+          <a id="tarjeta" class="text-decoration-none card" target="_blank"
+            href="https://github.com/Letualtv/Testimonios">
+
+            <h4 class="card-header fw-bold d-flex justify-content-between">Página de comentarios <i
+                class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                style="color: #ffffff;"></i></h4>
+            <div class="card-body">
 
 
-                <p id="parrafo_tarjeta" class="card-text">Editable, fácil uso, colores amigables y testimonios. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div class="card-footer m-0 row ">
-                <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
-                </i>
-                <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center  mx-1" id="texto_icono_tarjeta"> CSS3</h6>
-                </i>
-                <i class="fab fa-brands fa-react  col d-flex content  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> React</h6>
-                </i>
-              
+              <p id="parrafo_tarjeta" class="card-text">Editable, fácil uso, colores amigables y testimonios.</p>
+            </div>
+            <div class="card-footer m-0 row ">
+              <i class="fab fa-brands fa-html5  col d-flex  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
+              </i>
+              <i class="fab fa-brands fa-css3   col d-flex  ">
+                <h6 class="d-flex align-items-center  mx-1" id="texto_icono_tarjeta"> CSS3</h6>
+              </i>
+              <i class="fab fa-brands fa-react  col d-flex content  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> React</h6>
+              </i>
+
             </div>
           </a>
         </div>
 
 
-      
+
 
         <!-- Tarjeta 3 -->
         <div class="col-lg-5  my-4">
           <a id="tarjeta" class="text-decoration-none card" target="_blank" href="#">
-            
-              <h4 class="card-header fw-bold d-flex justify-content-between">Proyecto 3 <i
-                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
-                  style="color: #ffffff;"></i></h4>
-              <div class="card-body">
+
+            <h4 class="card-header fw-bold d-flex justify-content-between">Proyecto 3 <i
+                class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                style="color: #ffffff;"></i></h4>
+            <div class="card-body">
 
 
-                <p id="parrafo_tarjeta" class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div class="card-footer m-0 row ">
-                <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
-                </i>
-                <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
-                </i>
-                <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> Bootstrap</h6>
-                </i>
-              </div>
+              <p id="parrafo_tarjeta" class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="card-footer m-0 row ">
+              <i class="fab fa-brands fa-html5  col d-flex  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
+              </i>
+              <i class="fab fa-brands fa-css3   col d-flex  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
+              </i>
+              <i class="fab fa-brands fa-bootstrap  col d-flex content  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> Bootstrap</h6>
+              </i>
+            </div>
 
           </a>
         </div>
@@ -212,27 +226,27 @@
         <div class="col-lg-5 my-4">
           <a id="tarjeta" class="text-decoration-none  card" target="_blank" href="#">
 
-              <h4 class="card-header fw-bold d-flex justify-content-between">Proyecto 4 <i
-                  class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
-                  style="color: #ffffff;"></i></h4>
-              <div class="card-body">
+            <h4 class="card-header fw-bold d-flex justify-content-between">Proyecto 4 <i
+                class=" fa-solid fa-arrow-up-right-from-square fa-xs d-flex align-items-center justify-content-end"
+                style="color: #ffffff;"></i></h4>
+            <div class="card-body">
 
 
-                <p id="parrafo_tarjeta" class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div class="card-footer m-0 row ">
-                <i class="fab fa-brands fa-html5  col d-flex  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
-                </i>
-                <i class="fab fa-brands fa-css3   col d-flex  ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
-                </i>
-                <i class="fab fa-brands fa-bootstrap col d-flex   ">
-                  <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta">Bootstrap</h6>
-                </i>
-              </div>
+              <p id="parrafo_tarjeta" class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="card-footer m-0 row ">
+              <i class="fab fa-brands fa-html5  col d-flex  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> HTML5</h6>
+              </i>
+              <i class="fab fa-brands fa-css3   col d-flex  ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta"> CSS3</h6>
+              </i>
+              <i class="fab fa-brands fa-bootstrap col d-flex   ">
+                <h6 class="d-flex align-items-center mx-1" id="texto_icono_tarjeta">Bootstrap</h6>
+              </i>
+            </div>
 
           </a>
         </div>
@@ -240,13 +254,13 @@
 
   </section>
 
-<!-- Seccion contacto -->
+  <!-- Seccion contacto -->
 
   <section id="contacto">
     <h1 id="h1_contacto" class="px-1 text-center fw-bold">CONTACTO</h1>
     <div class="container-fluid col-xl-6 col-sm-auto">
 
- <!-- Formulario -->
+      <!-- Formulario -->
 
       <form action="https://formsubmit.co/b4454ca2d54fe92d3316e719eab294ac" method="POST">
         <div class="form-group">
@@ -255,7 +269,7 @@
         </div>
         <div class="form-group">
           <label for="email" class="fw-bold">Correo Electrónico:</label>
-          <input  name="email" type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
+          <input name="email" type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
         </div>
         <div class="form-group">
           <label for="mensaje" class="fw-bold">Mensaje:</label>
@@ -269,8 +283,8 @@
 
       </form>
     </div>
-  
-<!-- Footer -->
+
+    <!-- Footer -->
     <footer id="footer" class="card-footer  container-fluid py-3">
       <div class="row  ">
         <div class="col-sm text-lg-left text-center align-middle d-flex justify-content-around">
@@ -279,27 +293,33 @@
         <div class="col-sm text-lg-center  text-center d-flex justify-content-around">
           <h6>Hecho con <i class="fa fa-heart fa-xs " aria-hidden="true"></i> por Puli_dev</i></h6>
         </div>
-        
-      <div class="col-sm   flex-nowrap text-center d-flex justify-content-around">
-        <div class="text-lg-right">
-        <a id="footer_icons" target="_blank" href="https:t.me/Puli_dev"><i class="fab fa-telegram fa-xl text-lg-right m-2"></i></a>
-<a id="footer_icons" target="_blank" href="https://www.instagram.com/puli_dev/"><i class="fab fa-instagram fa-xl text-lg-right m-2"></i></a>
-<a id="footer_icons"target="_blank" href="https://github.com/Letualtv"><i class="fab fa-github fa-xl text-lg-right m-2"></i></a>
-<a id="footer_icons" target="_blank" href="https://www.linkedin.com/in/antoniopulidof/"><i class="fa fa-linkedin fa-xl text-lg-right m-2" aria-hidden="true"></i></a>
-      </div></div>
+
+        <div class="col-sm   flex-nowrap text-center d-flex justify-content-around">
+          <div class="text-lg-right">
+            <a id="footer_icons" target="_blank" href="https:t.me/Puli_dev"><i
+                class="fab fa-telegram fa-xl text-lg-right m-2"></i></a>
+            <a id="footer_icons" target="_blank" href="https://www.instagram.com/puli_dev/"><i
+                class="fab fa-instagram fa-xl text-lg-right m-2"></i></a>
+            <a id="footer_icons" target="_blank" href="https://github.com/Letualtv"><i
+                class="fab fa-github fa-xl text-lg-right m-2"></i></a>
+            <a id="footer_icons" target="_blank" href="https://www.linkedin.com/in/antoniopulidof/"><i
+                class="fa fa-linkedin fa-xl text-lg-right m-2" aria-hidden="true"></i></a>
+          </div>
+        </div>
     </footer>
 
     <!-- Boton hacia arriba -->
     <div id="div-totop" class="cmn-divfloat">
       <a href="#presentacion" class="btn  cmn-btncircle">
-          <i class="fa fa-arrow-up text-white"></i>
+        <i class="fa fa-arrow-up text-white"></i>
       </a>
-  </div>
-</section>
+    </div>
+  </section>
 
 </body>
 <!-- repositorios -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/5b9c44b176.js" crossorigin="anonymous"></script>
 <script src="/JS/script.js"></script>
 
