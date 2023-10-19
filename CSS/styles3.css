@@ -3,34 +3,38 @@
 /* 1024px */
 
 @media only screen and (max-width: 1024px) {
-    #escritura-automatica {
-      font-size: 2.5vh;
-    }
-  
-    #bienvenido {
-      padding-left: 2%;
-    }
-  
-    .mellamo {
-      padding-left: 3%;
-    }
-  
-  
+  #escritura-automatica {
+    font-size: 2.5vh;
+  }
+
+  #bienvenido {
+    padding-left: 2%;
+  }
+
+  .mellamo {
+    padding-left: 3%;
+  }
+
+  .text_ico {
+    opacity: 1;
+  }
+
   /* 450px */
-
-    .AP {
-      font-size: 13vh;
-    }
+  .AP {
+    font-size: 13vh;
   }
-  
-  @media only screen and (max-width: 450px) {
-    #escritura-automatica {
-      font-size: 2vh;
-    }
-  
+}
 
-    .AP {
-      font-size: 10vh;
-    }
-  
+@media only screen and (max-width: 450px) {
+  #escritura-automatica {
+    font-size: 2vh;
   }
+  .text_ico {
+    opacity: 1;
+  }
+
+  .AP {
+    font-size: 10vh;
+  }
+
+}
