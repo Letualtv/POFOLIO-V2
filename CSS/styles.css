@@ -7,7 +7,14 @@
   overflow-x: hidden;
   background-color: #001524;
 width: 100%;
-
+}
+* ::selection {
+  background: #FFC107;
+  color: black;
+}
+*::-moz-selection{
+  background: #FFC107;
+  color: black;
 }
 
 html {
@@ -134,7 +141,10 @@ margin-bottom: -2%;
   text-decoration: underline #1f7a8c;
 }
 
-
+.panel {
+  margin: 5px;
+  margin-top: 1px;
+}
 
 
 /* animacion perro espacial */
