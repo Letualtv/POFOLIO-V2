@@ -18,8 +18,7 @@
     background-color: #001524;
     border-radius: 9px;
     filter: brightness(120%);
-    min-height: 220px;
-    max-height: auto;
+
     color: white;
 }
 
@@ -32,9 +31,34 @@
 }
 
 #tarjeta:hover {
-    transform: translateY(-10px);
+    transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
+#tarjeta:hover img {
+filter: brightness(5%);
+transition: filter 0.3s ease;
+}
+
+#icono_superpuesto_github{
+display:none;
+font-size: 80px;
+}
+#tarjeta:hover #icono_superpuesto_github {
+position:absolute;
+display:block;
+text-align:center;
+opacity: 1;
+width:100%;
+    top:35%;
+}
+
+.card-footer .badge {
+padding: 5px 10px;
+color: black;
+    background-color: white;
+}
+
 
 /* seccion 5 contacto */
 
