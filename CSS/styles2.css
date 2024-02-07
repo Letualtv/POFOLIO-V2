@@ -1,12 +1,8 @@
 /* seccion 4 proyectos */
 
 #proyectos {
-    min-height: 110vh;
-    max-height: auto;
     color: #1c1c1c;
-    padding-top: 1%;
-    background-repeat: no-repeat;
-    background-color: #E2EAFC;
+    background: #E2EAFC;
 }
 
 #proyectos h1 {
@@ -18,6 +14,7 @@
     background-color: #001524;
     border-radius: 9px;
     filter: brightness(120%);
+    transition: transform 0.5s ease;
 
     color: white;
 }
@@ -32,7 +29,6 @@
 
 #tarjeta:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
 
 #tarjeta:hover img {
@@ -63,25 +59,28 @@ color: black;
 /* seccion 5 contacto */
 
 #contacto {
-    min-height: 100vh;
-    max-height: auto;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     color: whitesmoke;
     background-color: #001524;
-    padding-top: 4em;
+    padding-top: 3em;
+    min-height: 30em;
 }
 
 
 
 /* configuracion de formulario */
-
+#formulario {
+    max-width: 40em;
+}
 #h1_contacto {
     text-decoration: underline #1f7a8c;
     margin-bottom: 1.5em;
 }
-
+.form-group input {
+    height: 3em;
+}
 #form_enviar {
-    width: 100px;
+    width: 6rem;
     color: black;
     background-color: #E2EAFC;
 }
@@ -91,11 +90,11 @@ color: black;
 }
 
 .form-group {
-    padding-bottom: 1em;
+    padding-bottom: 1.2em;
 }
 
 .form-group label {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.7em;
 }
 
 /* configuracion footer */
@@ -104,10 +103,6 @@ color: black;
     color: #E2EAFC;
     background-color: rgba(0, 21, 36, 1);
     border-top: 1px solid #1f7a8c;
-    padding: 4em 0em;
-    min-height: 3em;
-    position: absolute;
-    bottom: 0;
 }
 
 #footer_icons {

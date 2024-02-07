@@ -16,8 +16,8 @@
 
 <body>
 
-  <section id="presentacion" class="row">
-    <div id="contenedor_presentacion" class=" align-self-center ">
+  <section id="presentacion" class="  row">
+    <div id="contenedor_presentacion" class="container align-self-center pl-3">
       <h2 id="bienvenido" class="fw-bold pb-3">¡Bienvenid@!&#128075;</h2>
       <div class="">
         <p class="mellamo font-italic   fw-normal">
@@ -27,25 +27,25 @@
         <h2 id="escritura-automatica" class="col-5 font-italic fw-bold">Y SOY DESARROLLADOR WEB <span
             class=" text-warning">JUNIOR</span></h2>
       </div>
-      <div id="glow_icons" class="flex-nowrap d-flex row col-xl-6 col-md-8 col-sm-12 ">
+      <div id="glow_icons" class="container flex-nowrap d-flex row col-xl-6 col-md-8 col-sm-12 ">
         <div class=" col">
           <a target="_blank" href="https://www.linkedin.com/in/antoniopulidof/" class="glow-icon1">
             <div class="card-body ">
-              <i id="iconos_principales" class="fab fa-linkedin fa-4x"></i>
+              <i  class="fab fa-linkedin fa-4x iconos_principales"></i>
             </div>
           </a>
         </div>
         <div class="col">
           <a target="_blank" href="https://github.com/Letualtv" class=" glow-icon2">
             <div class="card-body ">
-              <i id="iconos_principales" class="fab fa-github fa-4x"></i>
+              <i  class="fab fa-github fa-4x iconos_principales"></i>
             </div>
           </a>
         </div>
         <div class="col">
           <a target="_blank" href="https://www.instagram.com/puli_dev/" class=" glow-icon3">
             <div class="card-body ">
-              <i id="iconos_principales" class="fab fa-instagram fa-4x"></i>
+              <i  class="fab fa-instagram fa-4x iconos_principales"></i>
             </div>
           </a>
         </div>
@@ -79,14 +79,24 @@
               esfuerzo y dedicación 🦾</p>
           </h5>
           <div class="pb-2">
-            <button id="btn_collapse" class="btn btn-outline-dark btn-sm" type="button" data-bs-toggle="collapse"
+            <button id="btn_collapse" class="btn btn-outline-dark btn-sm " type="button" data-bs-toggle="collapse"
               data-bs-target="#collapse1" aria-expanded="false">
-              <h5 class="panel fw-bold">Cursos / bootcamps que he realizado:
+              <h5 class="panel fw-bold">Certificación oficial:
                 <span class="divider"></span>
             </button>
-            <ul class="fw-normal collapse" id="collapse1">
+            <ul class="fw-normal show" id="collapse1">
               <li>Técnico Superior en Desarrollo de Aplicaciones Web - Medac (2022-2024)</li>
               <li>British Council Aptis ESOL B2 (2023)</li>
+            </ul>
+            </h5>
+          </div>
+          <div class="pb-2">
+            <button id="btn_collapse" class="btn btn-outline-dark btn-sm" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse2" aria-expanded="false">
+              <h5 class="panel fw-bold">Cursos / Bootcamps:
+              </h5>
+            </button>
+            <ul class="fw-normal collapse" id="collapse2">
               <li>HTML, Java, SQL, C++ - Programming Hub</li>
               <li>HTML5, CSS3 y JS - Udemy (Victor Robles Web)</li>
               <li>Curso de React - FreeCodeCamp</li>
@@ -95,21 +105,19 @@
               <li>Desarrollo web para comercio electrónico (IFCD022PO) - Centro Universtiario EUSA (150h)</li>
               <li>Tienda Virtual: Pestashop (COMT099PO) - Cámpus Cámara Badajoz (60h)</li>
             </ul>
-            </h5>
           </div>
           <div>
             <button id="btn_collapse" class="btn btn-outline-dark btn-sm" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapse2" aria-expanded="false">
+              data-bs-target="#collapse3" aria-expanded="false">
               <h5 class="panel fw-bold">A ésto he de añadir libros como:
               </h5>
             </button>
-            <ul class="fw-normal collapse" id="collapse2">
+            <ul class="fw-normal collapse" id="collapse3">
               <li class=" "> Git y GitHub desde cero - Brais Moure</li>
               <li class=" "> Clean Code - Robert C. Martin</li>
               <li class=""> El Pogramador Pragmático - David Thomas y Andrew Hunt</li>
             </ul>
           </div>
-
 
         </div>
       </div>
@@ -142,19 +150,14 @@
     </div>
   </div>
 
+ <!-- Proyectos -->
+  <section id="proyectos" class="container-fluid pb-3">
 
+      <h1 class="text-center col-rows-2 fw-bold py-5"> PROYECTOS </h1>
 
-
-
-
-  <section id="proyectos" class="container-fluid py-4">
-
-    <div class=" ">
-      <h1 class="text-center fw-bold py-5"> PROYECTOS </h1>
-
-      <div class="row justify-content-md-center row-cols-1 row-cols-md-2 g-4">
+      <div class="row  justify-content-center ">
         <!-- Tarjeta 1 -->
-        <div class="col-lg-5    my-4">
+        <div class="col-lg-4 col-md-8 col-sm-10  mb-5">
           <a id="tarjeta" class="text-decoration-none card" target="_blank"
             href="https://letualtv.github.io/Puli_dev_linktree/">
 
@@ -181,7 +184,7 @@
         </div>
 
         <!-- Tarjeta 2 -->
-        <div class="col-lg-5  my-4">
+        <div class="col-lg-4  col-md-8 col-sm-10  mb-5">
           <a id="tarjeta" class="text-decoration-none card" target="_blank"
             href="https://github.com/Letualtv/Testimonios">
 
@@ -207,12 +210,12 @@
 
           </a>
         </div>
+        </div>
 
-
-
+        <div class="row  justify-content-center ">
 
         <!-- Tarjeta 3 -->
-        <div class="col-lg-5  my-4">
+        <div class="col-lg-4  col-md-8 col-sm-10  mb-5">
           <a id="tarjeta" class="text-decoration-none card" target="_blank"
             href="https://github.com/Letualtv/RestauranteReactResponsive">
 
@@ -240,7 +243,7 @@
         </div>
 
         <!-- Tarjeta 4 -->
-        <div class="col-lg-5 my-4">
+        <div class="col-lg-4 col-md-8 col-sm-10 mb-5">
           <a id="tarjeta" class="text-decoration-none  card" target="_blank"
             href="https://github.com/Letualtv/CRUD-PHP-Boostrap-MySQL">
 
@@ -265,12 +268,13 @@
             </div>
           </a>
         </div>
+</div>
+<div class="row  justify-content-center ">
 
         <!-- Tarjeta 5 -->
 
-
-        <div class="col-lg-5  my-4">
-          <a id="tarjeta" class="text-decoration-none card" target="_blank"
+        <div class="col-lg-4 col-md-8 col-sm-10  mb-5">
+          <a id="tarjeta" class="text-decoration-none card " target="_blank"
             href="https://github.com/Letualtv/bank_react_tailwind">
 
             <h4 class="card-header py-2 fw-bold d-flex justify-content-between">Banco online <i
@@ -297,23 +301,17 @@
           </a>
         </div>
 
-
-
-
-
-
-
       </div>
   </section>
 
   <!-- Seccion contacto -->
 
-  <section id="contacto">
+  <section id="contacto" class="container-fluid" >
     <h1 id="h1_contacto" class="px-1 text-center fw-bold">CONTACTO</h1>
-    <div class="container-fluid col-xl-6 col-sm-auto">
+
 
       <!-- Formulario -->
-
+    <div id="formulario" class="container mx-auto align-self-center align-items-center">
       <form action="https://formsubmit.co/b4454ca2d54fe92d3316e719eab294ac" method="POST">
         <div class="form-group">
           <label for="nombre" class="fw-bold">Nombre:</label>
@@ -334,20 +332,18 @@
         <input type="hidden" name="_template" value="table">
 
       </form>
-    </div>
 
+    </div> 
+  </section>
     <!-- Footer -->
-    <footer id="footer" class="card-footer  container-fluid py-3">
-      <div class="row  ">
-        <div class="col-sm text-lg-left text-center align-middle d-flex justify-content-around">
-          <h6><i class="fa fa-map-pin  "></i> Cordoba, España.</h6>
-        </div>
-        <div class="col-sm text-lg-center  text-center d-flex justify-content-around">
-          <h6>Hecho con <i class="fa fa-heart fa-xs " aria-hidden="true"></i> por Puli_dev</i></h6>
-        </div>
+    <footer id="footer" class="footer" >
+      <div class=" container py-3">
+        <div class="row">
+          <div class="col ustify-content-start">
+          <h6><i class="fa fa-map-pin  "></i> Cordoba, España.</h6></div>
 
-        <div class="col-sm   flex-nowrap text-center d-flex justify-content-around">
-          <div class="text-lg-right">
+        <div class="col  text-lg-center  text-center d-flex  text-center d-flex justify-content-end">
+         
             <a id="footer_icons" target="_blank" href="https:t.me/Puli_dev"><i
                 class="fab fa-telegram fa-xl text-lg-right m-2"></i></a>
             <a id="footer_icons" target="_blank" href="https://www.instagram.com/puli_dev/"><i
@@ -356,8 +352,9 @@
                 class="fab fa-github fa-xl text-lg-right m-2"></i></a>
             <a id="footer_icons" target="_blank" href="https://www.linkedin.com/in/antoniopulidof/"><i
                 class="fa fa-linkedin fa-xl text-lg-right m-2" aria-hidden="true"></i></a>
-          </div>
+          
         </div>
+      </div>
     </footer>
 
     <!-- Boton hacia arriba -->
@@ -366,13 +363,13 @@
         <i class="fa fa-arrow-up text-white"></i>
       </a>
     </div>
-  </section>
+ 
 
-</body>
+
 <!-- repositorios -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/5b9c44b176.js" crossorigin="anonymous"></script>
 <script src="/JS/script.js"></script>
-
+</body>
 </html>

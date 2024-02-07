@@ -32,7 +32,11 @@
   .text_ico {
     opacity: 1;
   }
+#contacto{
+  min-height: 100vh;
+  padding-bottom: 0em;
 
+}
   .AP {
     font-size: 10vh;
   }
