@@ -132,3 +132,7 @@ color: black;
     padding: 6px 0px;
     text-align: center;
 }
+.cmn-divfloat:hover {
+    background-color: #15535e;
+
+}
