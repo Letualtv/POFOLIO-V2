@@ -7,14 +7,6 @@
     font-size: 2.5vh;
   }
 
-  #bienvenido {
-    padding-left: 2%;
-  }
-
-  .mellamo {
-    padding-left: 3%;
-  }
-
   .text_ico {
     opacity: 1;
   }
@@ -24,6 +16,7 @@
     font-size: 13vh;
   }
 }
+/* 450px */
 
 @media only screen and (max-width: 450px) {
   #escritura-automatica {
@@ -32,11 +25,7 @@
   .text_ico {
     opacity: 1;
   }
-#contacto{
-  min-height: 100vh;
-  padding-bottom: 0em;
 
-}
   .AP {
     font-size: 10vh;
   }
