@@ -8,7 +8,9 @@
 #proyectos h1 {
     text-decoration: underline #1f7a8c;
 }
-
+.card-header {
+    font-size: large;
+}
 #tarjeta {
     margin-inline: 1em;
     background-color: #001524;
@@ -50,7 +52,7 @@ width:100%;
 }
 
 .card-footer .badge {
-padding: 5px 10px;
+padding: 3px 5px;
 color: black;
     background-color: white;
 }
